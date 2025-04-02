@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+body{
+    line-height: 1.6;
+}
+
+header{background: linear-gradient(to right, #1e1e1e, #292929);
+color: white;
+text-align: center;
+padding: 20px 0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+header{
+    height: 800px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: firebrick;
+    margin-top: 5px;
+    
+}
+
+#heading{
+   font-size: 3rem;
+   margin: 20px;
+   color: #ff4500;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+    background: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav li{
+    display: inline;
+}
+ 
+nav  ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  
+}
+
+a{
+    transition: o.3s ease;
+    text-decoration: none;
+    color: #ff4500;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 600px;
+
+}
+
+nav  li a:hover{
+    color: #ffcc00;
+    border-radius: 5px;
+}
+
+#gamelog{
+    background:url(../images/wolf.jpeg)  center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2vh 0;
+    gap: 20px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4500;
+    margin-bottom: 10px;
+}
+
+h5{
+    font-size: 18px;
+    color: #ccc;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff4500;
+    margin: 20px 0;
+}
+
+
+h2{
+    font-size: 40PX;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #121212;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.more:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.more img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.more h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.more p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #bbb;
+    max-width: 90%;
+}
+
+
+#gameinventory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+#gamelibrary{
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#gamelibrary h2 {
+    font-size: 26px;
+    color: #ff4500;
+    margin-bottom: 20px;
+}
+
+#single-game{
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(255, 85, 0, 0.3);
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#single-game:hover {
+    transform: scale(1.05);
+}
+
+#single-game img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.buy{
+    background :goldenrod
+
+}
+.buy:hover{
+    background: #ffcc00;
+
+}
+
+.delete{
+   background: crimson;
+   color: #ccc;
+}
+
+.delete:hover{
+    background: red;
+}
+
+#gameForm{
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    
+    
+}
+
+#gameForm label{
+    font-weight: bold;
+    color: #ffcc00;
+
+}
+#gameForm input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 80%;
+
+}
+
+#gameForm button{
+    padding: 10px;
+    background-color: #ff4500;
+    border-radius: 15px;
+    color: #222;
+    font-weight:bold ;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    width: 60%;
+}
+
+#gameForm button:hover{
+  background-color: #ff5733;
+}
+
+#subscriptionPlans{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#playplus{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.basic, .premium{
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.basic, .premium:hover{
+    background-color: #444;
+}
+
+#footer{
+    background-color: #222;
+    margin-top: 20px;
+
+}
+#footer i{
+    cursor: pointer;
+    margin: 5px;
+    font-size: 24px;
+
+}
+
+#footer i:hover{
+    color: #ff4500;
+}
