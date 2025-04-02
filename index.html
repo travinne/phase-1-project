@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME STOP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta charset="UTF-8">
+    
+</head>
+<body>
+    <main>
+        <section>
+            <header id="gamelog">
+                <h1 id="heading">GAME STOP</h1>
+                <p>push it to the max!</p>
+                <nav id="nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">games</a></li>
+                    <li><a href="#">features</a></li>
+                    <li><a href="#">create</a></li>
+                    <li><a href="#">contact</a></li>
+                </nav>
+            </header>
+        </section>
+        <section class="info">
+           
+            <section class="more">
+                <img src="images/Rockstar Games.jpeg" alt="">
+               <div>
+                <h2 id="quality">developers</h2>
+                <p>get a chance to play the best games ever developed by the worlds greatest development</p>
+               </div>
+            </section>
+        </section>
+        <section class="info">
+            
+            <section class="more">
+                <img src="images/AC Shadows.jpeg" alt="">
+               <div>
+                <h2 id="quality">access</h2>
+                <p>get early access to the newest games as early as possible</p>
+               </div>
+            </section>
+        </section>
+        <section class="info">
+           
+            <section class="more">
+                <img src="images/Letter X Logo - Sabuj Ali.jpeg" alt="">
+               <div>
+                <h2 id="quality">trader</h2>
+                <p>with the new trader system players can sell their digital copies of their games to their friends</p>
+               </div>
+            </section>
+        </section>
+        <h2> inventory</h2>
+        <section id="gameinventory">
+        </section>
+        <section>
+            <h2>ADD game to inventory</h2>
+            <form id="gameForm">
+                <input type="text" id="title" placeholder="game title" required>
+                <input type="text" id="image" placeholder="image url" required>
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="number" id="price" placeholder="price" required>
+                <button type="submit">add game</button>
+            </form>
+           </section>
+        <section id="subscriptionPlans">
+            <h2>choose your plan</h2>
+            <div id="playplus">
+            <div class="basic" onclick="selectPlan('basic')">
+                <h3>basic</h3>
+                <p>increase your inventory storage to upto 50 games</p>
+                <p>price: $10.00/monthly</p>
+            </div>
+            <div class="premium" onclick="selectPlan('premium')">
+                <h3>premium</h3>
+                <p>increase your inventory storage to upto 100 games </p>
+                <p>price: $20.00/monthly</p>
+            </div>
+            </div>
+            <div>
+                <footer id="footer">
+                    <p>all rights to this website are reserved and please notice that your activities within this website are closely monitored</p>
+                    <div>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitch"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-kickstarter-k"></i>
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <script src="index.js" defer></script>
+    </main>
+    
+</body>
+</html>
